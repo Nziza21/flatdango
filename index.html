@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="stle.css">
+</head>
+<body>
+    <div id="movie-details">
+        <!-- Movie details section (poster, title, runtime, showtime, available tickets) -->
+        <img id="poster" src="images/download.jpeg" alt="Movie Poster">
+        <h2 id="title"></h2>
+        <div class="movie-info">
+            <p><strong>Runtime</strong></p>
+            <p><span id="runtime"></span> minutes</p>
+            <p><strong>Showtime</strong></p>
+            <p><span id="showtime"></span></p>
+            <p><strong>Available Tickets</strong></p>
+            <p><span id="available-tickets"></span></p>
+        </div>
+        <button id="buy-ticket">Buy Ticket</button>
+    </div>
+
+    <div id="movie-list">
+        <h3>Movie List</h3>
+        <ul id="films">
+            <!-- Placeholder list items for movies with both image and title -->
+            <li class="film item">
+                <p></p>
+            </li>
+            <!-- Repeat the above structure for each movie -->
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
